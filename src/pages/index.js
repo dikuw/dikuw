@@ -21,7 +21,7 @@ const About = (props) => {
   return (
     <Layout>
       <div className="main">
-        <div className="izquierda">
+        {/* <div className="izquierda">
           <div className="imagen">
             <Image className="img" fluid={props.data.file.childImageSharp.fluid} alt="a lovely picture of me at my brother's wedding in 2012" />
           </div>
@@ -30,7 +30,7 @@ const About = (props) => {
             <div className="iconos"><i className="fas fa-graduation-cap fa-sm"></i><p>University of Colorado at Boulder</p></div>
             <div className="iconos"><i className="fas fa-code fa-sm"></i><p>MERN Stack, Cordova, IoT</p></div>
           </div>    
-        </div>
+        </div> */}
         <div className="derecha">
           <div className="wordContainer">
             <p>Full (MERN) Stack Solutions</p>

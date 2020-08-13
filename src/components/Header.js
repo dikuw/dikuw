@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.styles.scss';
-import {Link } from 'gatsby';
+import { Link } from 'gatsby';
 
 const Header = () => {
   return (
@@ -21,11 +21,11 @@ const Header = () => {
         </div>
         <div className="icons">
           <a href='https://github.com/dikuw' rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a>
-          <a href='https://twitter.com/dikuw' rel="noopener noreferrer" target="_blank"><i className="fab fa-twitter"></i></a>
           <a href='https://www.linkedin.com/in/michaelvasilevsky/' rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i></a>
+          <a href='https://twitter.com/dikuw' rel="noopener noreferrer" target="_blank"><i className="fab fa-twitter"></i></a>
         </div>
         <span className="pages-link">
-          <Link to="/">About</Link> | <Link to="/portfolio">Portfolio</Link> | <a href='https://dikuw.wordpress.com/' rel="noopener noreferrer" target="_blank">Blog</a>
+          <Link to="/">About</Link> | <Link to="/portfolio/">Portfolio</Link> | <a href='https://dikuw.wordpress.com/' rel="noopener noreferrer" target="_blank">Blog</a>
         </span>
         <hr/>
       </div>
