@@ -46,7 +46,7 @@ i {
   padding:1rem;
 }
 
-img {
+.logoImage {
   max-width: 600px;
 }
 
@@ -87,14 +87,17 @@ img {
   .content-main {
     padding-bottom: 5rem;
   }
-  img {
+  .logoImage {
     max-width: 400px;
   }
 }
 
 @media(max-width:450px) {
-  img {
+  .logoImage {
     max-width: 200px;
+  }
+  .content-main {
+    padding: 2rem 2rem 5rem;
   }
 }
 

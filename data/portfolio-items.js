@@ -1,49 +1,50 @@
 const portfolioItems = [
-    {
-        title: 'Portfolio Item 1',
-        synopsis: 'This is a pure CSS accordion. Click to open',
-        desc: 'You can put your description here. Include your github Repo. A link for a live version is optional. Include a screen cap. Or edit the format',
-        img: './portfolio/faduense.png',
-        repo: 'https://github.com/martin2844/faduense',
-        index: 1
-    },
-    {
-        title: 'Portfolio Item 2',
-        synopsis: 'This is just a quick description. Open up for more details',
-        desc: 'This is just a javascript array of objects. Gatsby makes the JSX elements to show up',
-        img: './portfolio/bitcoin.png',
-        live: 'bitcoinhoy.com.ar',
-        repo: 'https://github.com/martin2844',
-        index: 2
-    },
-    {
-        title: 'Portfolio Item 3',
-        synopsis: 'It also includes a Blog section, with the createPages Api',
-        desc: 'Write posts directly in markdown. Thanks to plugins, and the createPage Api, gatbsy generates blog posts automatically',
-        img: './portfolio/ejs-blog.png',
-        repo: 'https://github.com/martin2844/ejs-blog',
-        live: 'https://my-ejs-blog.herokuapp.com/',
-        index: 3
-    },
-    {
-        title: 'Portfolio Item 4',
-        synopsis: 'Its very minimalist, but that was the end goal',
-        desc: 'This was inspired in Dinesh Pandiyan personal page',
-        img: './portfolio/EJS.png',
-        repo: 'https://github.com/martin2844',
-        live: 'https://my-ejs-todo-list.herokuapp.com',
-        index: 4
-    },
-    {
-        title: 'Portfolio Item 5',
-        synopsis: 'Please message me at twitter @codigoMate',
-        desc: 'I really appriciate any messages',
-        img: './portfolio/Mate.png',
-        repo: 'https://github.com/martin2844',
-        live: 'https://codigomate.com',
-        index: 5
-    }
+  {
+    title: 'Online Store',
+    synopsis: 'Full-stack MERN web application',
+    desc: 'Includes Passport authentication and Stripe payments',
+    img: './portfolio/Hely.png',
+    imgAlt: 'A lovely photo on an eCommerce store front page showing banner, logo, navigation bar, and inventory',
+    live: 'https://hely.herokuapp.com/',
+    repo: 'https://github.com/dikuw/Hely',
+    index: 1
+  },
+  {
+    title: 'Simple Search UI',
+    synopsis: 'React.js UI for the Cocktail API at https://www.thecocktaildb.com/api.php',
+    desc: 'Uses standard React components and the useState and useEffect hooks',
+    img: './portfolio/Cocktail.png',
+    live: 'https://cocktls.herokuapp.com/',
+    repo: 'https://github.com/dikuw/cocktails',
+    index: 2
+  },
+  {
+    title: 'Punchlist App',
+    synopsis: 'SharePoint App for Punchlist item tracking',
+    desc: 'Add, edit, and manage punchlist items',
+    img: './portfolio/punchlist.png',
+    repo: 'https://github.com/dikuw/punchlist',
+    live: 'http://dikuw.com/PunchlistTracking.html',
+    index: 3
+  },
+  {
+    title: 'Org Chart Application',
+    synopsis: 'A quick org chart visualization for SharePoint',
+    desc: 'Built in SPFx, the application takes data from a list in SharePoint and visualizes it in a responsive chart.',
+    img: './portfolio/OrgChart.png',
+    repo: 'https://github.com/dikuw/SVOrgChart',
+    live: 'http://dikuw.com/OrgChart.html',
+    index: 4
+  },
+  {
+    title: 'Deviation Tracking Application',
+    synopsis: 'A SharePoint customization',
+    desc: 'Deviations/Discrepancies/Variances are events documented formally in regulated industries. This application allows the manangement of said events and includes dashboard metrics.',
+    img: './portfolio/Deviation.png',
+    repo: 'https://github.com/dikuw/deviations',
+    live: 'http://dikuw.com/DeviationTracking.html',
+    index: 5
+  }
+];
 
-]
-
-export default portfolioItems
+export default portfolioItems;
