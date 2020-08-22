@@ -1,4 +1,4 @@
-# dikuw portfolio site generate in GatsbyJS.
+# dikuw portfolio site generated in GatsbyJS.
 
 Design credits:
 Dinesh Pandiyan
