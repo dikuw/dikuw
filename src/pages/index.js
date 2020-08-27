@@ -65,7 +65,7 @@ const About = (props) => {
             <div className="social-container">
               <p>More about me</p>
               <a className="social" href="https://github.com/dikuw" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i></a>
-              <a className="social" href="https://www.linkedin.com/michaelvasilevsky/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i></a>
+              <a className="social" href="https://www.linkedin.com/in/michaelvasilevsky/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i></a>
               <a className="social" href="https://www.twitter.com/dikuw" rel="noopener noreferrer" target="_blank"><i className="fab fa-twitter"></i></a>
             </div>
         </div>
